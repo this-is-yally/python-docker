@@ -4,13 +4,13 @@
 docker build -t flask-app .
 
 # Run a container from the built image
-docker run -d -p 5000:5000 --name flask-container flask-app
+docker run -d -p 8000:8000 --name flask-container flask-app
 
 # Wait for the Flask app to start (you can add a more sophisticated check here)
 sleep 5
 
 # Send a request to the app and store the response
-response=$(curl -s http://localhost:5000)
+response=$(curl -s http://localhost:8000)
 
 # Check if the response contains the expected message
 if [[ $response == *"This is a more complex Flask example."* ]]; then
