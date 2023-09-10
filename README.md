@@ -6,4 +6,5 @@ The requirements.txt file lists the Python packages that are needed for the app,
 The test.sh file is a shell script that runs some tests on the app using curl. It checks if the app is running, if it returns a valid JSON response, and if it logs the request and response correctly.
 
 
-![image](https://github.com/this-is-yally/python-docker/assets/79525614/3119e23e-67f9-4f0b-b333-d57c59415311)
+![image](https://github.com/this-is-yally/python-docker/assets/79525614/a6edc89f-e0e1-4462-abc9-dfa6578dfd30)
+
